@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+	font-family: Helvetica;
+	font-size: 12px;
+	margin:20px 20px 100px 100px;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border: 1px solid #7a55ab;
+	padding:4px 8px 4px 8px;
+	margin-bottom: 20px;
+}
+
+th{
+	text-transform: uppercase;
+}
+
+a.new{
+	color:black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 1px dashed black;
+	padding:4px;
+	margin-left: 8px;
+}
+
+a.new:hover{
+	border: 1px solid black;
+}
+
+.field{
+	margin-bottom: 8px;
+}
+
+.add_field{
+	margin-left: 8px;
+}
+
+.add_field:hover{
+	cursor:pointer;
+}
+
+.id_field{
+	color:white;
+	background-color: #7a55ab;
+	border: 1px solid black;
+}
+
+td.id_field{
+	text-align: right;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
+}
+
